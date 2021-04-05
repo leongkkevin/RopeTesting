@@ -1,0 +1,3 @@
+/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles/TheRope.dir
