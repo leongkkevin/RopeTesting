@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kevinleong/Documents/GitHub/RopeTesting/Rope.cpp">
-			<Option target="TheRope"/>
-		</Unit>
-		<Unit filename="/Users/kevinleong/Documents/GitHub/RopeTesting/Rope.h">
-			<Option target="TheRope"/>
-		</Unit>
 		<Unit filename="/Users/kevinleong/Documents/GitHub/RopeTesting/main.cpp">
 			<Option target="TheRope"/>
 		</Unit>

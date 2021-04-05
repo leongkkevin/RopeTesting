@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TheRope.dir/Rope.cpp.o"
   "CMakeFiles/TheRope.dir/main.cpp.o"
   "TheRope"
   "TheRope.pdb"

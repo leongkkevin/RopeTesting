@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kevinleong/Documents/GitHub/RopeTesting/Rope.cpp" "/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles/TheRope.dir/Rope.cpp.o"
   "/Users/kevinleong/Documents/GitHub/RopeTesting/main.cpp" "/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles/TheRope.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

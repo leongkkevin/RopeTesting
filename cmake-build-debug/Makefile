@@ -123,33 +123,6 @@ TheRope/fast:
 	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/build
 .PHONY : TheRope/fast
 
-Rope.o: Rope.cpp.o
-
-.PHONY : Rope.o
-
-# target to build an object file
-Rope.cpp.o:
-	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/Rope.cpp.o
-.PHONY : Rope.cpp.o
-
-Rope.i: Rope.cpp.i
-
-.PHONY : Rope.i
-
-# target to preprocess a source file
-Rope.cpp.i:
-	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/Rope.cpp.i
-.PHONY : Rope.cpp.i
-
-Rope.s: Rope.cpp.s
-
-.PHONY : Rope.s
-
-# target to generate assembly for a file
-Rope.cpp.s:
-	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/Rope.cpp.s
-.PHONY : Rope.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TheRope"
-	@echo "... Rope.o"
-	@echo "... Rope.i"
-	@echo "... Rope.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

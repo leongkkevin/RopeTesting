@@ -85,9 +85,9 @@ void concatenate(Rope *&root3, Rope *root1, Rope *root2, int n1)
     root3 = tmp;
 }
 
-// Tests the time of a string and a rope's concatenation cycle
+// Tests the time of a string and a rope's concatenation cycle and prints the times to the console
 void testConcatenate(string stringCat, Rope *ropeCat){
-    cout << "SIZE: " << stringCat.size() << endl;
+    cout << stringCat.size() << " length Character Array: " << endl;
     chrono::time_point<std::chrono::high_resolution_clock> startString = chrono::high_resolution_clock::now();
     string final = stringCat + stringCat;
     chrono::time_point<std::chrono::high_resolution_clock> stopString = chrono::high_resolution_clock::now();
@@ -99,13 +99,14 @@ void testConcatenate(string stringCat, Rope *ropeCat){
     chrono::time_point<std::chrono::high_resolution_clock> stopRope = chrono::high_resolution_clock::now();
     chrono::duration<double> durationRope = stopRope - startRope;
 
-    cout << "String Time: " << durationString.count() << endl;
-    cout << "Rope Time: " << durationRope.count() << endl << endl;
+    cout << "     String Time: " << durationString.count() << " s" << endl;
+    cout << "     Rope Time: " << durationRope.count() << " s" << endl << endl;
 }
 
 // Driver code
 int main()
 {
+    //This creates the character arrays to be translated into string format
     char ten[11] = "**********";
     char hundred[101] = "";
     for(int i = 0; i < 10; ++i){
@@ -124,12 +125,14 @@ int main()
         strcat(hundredThousand, tenThousand);
     }
 
+    //Creates strings from the character arrays
     string tenStr = ten;
     string hundredStr = hundred;
     string thousandStr = thousand;
     string tenThousandStr = tenThousand;
     string hundredThousandStr = hundredThousand;
 
+    //Creates the different sized rope data structures
     Rope *tenRoot = NULL;
     createRopeStructure(tenRoot, NULL, ten, 0, 9);
     Rope *hundRoot = NULL;
@@ -141,6 +144,7 @@ int main()
     Rope *hundThouRoot = NULL;
     createRopeStructure(hundThouRoot, NULL, hundredThousand, 0, 99999);
 
+    //Tests the concatenation functions of both data structures and prints the size and time to the output
     testConcatenate(tenStr, tenRoot);
     testConcatenate(hundredStr, hundRoot);
     testConcatenate(thousandStr, thouRoot);

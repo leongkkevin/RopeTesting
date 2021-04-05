@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/TheRope.dir/all:
 	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/depend
 	$(MAKE) -f CMakeFiles/TheRope.dir/build.make CMakeFiles/TheRope.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target TheRope"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TheRope"
 .PHONY : CMakeFiles/TheRope.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TheRope.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TheRope.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinleong/Documents/GitHub/RopeTesting/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/TheRope.dir/rule
